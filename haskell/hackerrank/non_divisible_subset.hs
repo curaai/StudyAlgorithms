@@ -4,10 +4,8 @@
 
 module Main where
 
-import Data.Bool
-import Data.List
-import Data.Maybe (catMaybes)
-import Data.Text (pack, stripEnd, stripStart, unpack)
+import Data.Bool (bool)
+import Data.List (subsequences)
 import GHC.Exts (sortWith)
 import Test.HUnit
   ( Test (TestCase, TestLabel, TestList),
