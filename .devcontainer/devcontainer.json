@@ -3,14 +3,17 @@
   "remoteUser": "vscode",
   "runArgs": [],
   "image": "haskelldevenv:latest",
-  },
   "extensions": [
     "haskell.haskell",
     "phoityne.phoityne-vscode",
     "eriksik2.vscode-ghci",
-    "jcanero.hoogle-vscode"
+    "jcanero.hoogle-vscode",
+    "ms-python.vscode-pylance",
+    "ms-python.python", 
+    "ms-python.debugpy"
   ],
   "settings": {
+    "editor.tabSize": 2,
     "files.exclude": {
       "**/*.olean": true,
       "**/.DS_Store": true,
