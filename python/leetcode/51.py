@@ -1,6 +1,5 @@
 from typing import List
 
-
 def solveNQueens(n: int) -> List[List[str]]:
     res = [] 
 
@@ -22,7 +21,7 @@ def solveNQueens(n: int) -> List[List[str]]:
             tracking(queens+[(row, col)], cols+[col])
             
 
-    for i in range(int(n / 2) + 1):
+    for i in range(n):
         queens = [(0, i)]
 
         tracking(queens, [i])
